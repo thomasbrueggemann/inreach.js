@@ -8,7 +8,17 @@ describe("inreach.js", function() {
 
 		inreach.get("saillife", function(pos, more) {
 			more.name.should.equal("Mads Dahlke");
-			console.log(pos, more);
+			return done();
+		});
+	});
+
+	it("should not extract anything", function(done) {
+
+		inreach.get("p938fh3498hp5", function(pos, more) {
+
+			var check = (pos === null && more === null);
+			check.should.equal(true);
+
 			return done();
 		});
 	});
