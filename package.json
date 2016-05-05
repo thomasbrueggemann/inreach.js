@@ -1,35 +1,35 @@
 {
-  "name": "inreach.js",
-  "version": "1.0.0",
-  "description": "Reading position updates from DeLorme InReach users public feeds",
-  "main": "index.js",
-  "scripts": {
-    "test": "node_modules/.bin/mocha"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/thomasbrueggemann/inreach.js"
-  },
-  "keywords": [
-    "inreach",
-    "position",
-    "gps",
-    "location",
-    "delorme"
-  ],
-  "author": "Thomas Brüggemann",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/thomasbrueggemann/inreach.js/issues"
-  },
-  "homepage": "https://github.com/thomasbrueggemann/inreach.js",
-  "devDependencies": {
-    "mocha": "*",
-    "should": ">= 0.0.1"
-  },
-  "dependencies": {
-    "jsdom": "^8.5.0",
-    "request": "^2.72.0",
-    "togeojson": "^0.13.0"
-  }
+	"name": "inreach",
+	"version": "1.0.0",
+	"description": "Reading position updates from DeLorme InReach users public feeds",
+	"main": "index.js",
+	"scripts": {
+		"test": "node_modules/.bin/mocha"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/thomasbrueggemann/inreach.js"
+	},
+	"keywords": [
+		"inreach",
+		"position",
+		"gps",
+		"location",
+		"delorme"
+	],
+	"author": "Thomas Brüggemann",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/thomasbrueggemann/inreach.js/issues"
+	},
+	"homepage": "https://github.com/thomasbrueggemann/inreach.js",
+	"devDependencies": {
+		"mocha": "*",
+		"should": ">= 0.0.1"
+	},
+	"dependencies": {
+		"jsdom": "^8.5.0",
+		"request": "^2.72.0",
+		"togeojson": "^0.13.0"
+	}
 }
