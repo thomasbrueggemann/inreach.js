@@ -1,4 +1,4 @@
-# inreach.js [![Build Status](https://travis-ci.org/thomasbrueggemann/inreach.js.svg?branch=master)](https://travis-ci.org/thomasbrueggemann/inreach.js) [![npm](https://img.shields.io/badge/npm-1.1.0-blue.svg)](https://www.npmjs.com/package/ais)
+# inreach.js [![Build Status](https://travis-ci.org/thomasbrueggemann/inreach.js.svg?branch=master)](https://travis-ci.org/thomasbrueggemann/inreach.js) [![npm](https://img.shields.io/badge/npm-1.1.1-blue.svg)](https://www.npmjs.com/package/ais)
 Reading position updates from DeLorme InReach users public feeds
 
 ### Installation
