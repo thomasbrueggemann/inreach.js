@@ -1,5 +1,5 @@
 # inreach.js [![Build Status](https://travis-ci.org/thomasbrueggemann/inreach.js.svg?branch=master)](https://travis-ci.org/thomasbrueggemann/inreach.js) [![npm](https://img.shields.io/badge/npm-1.1.2-blue.svg)](https://www.npmjs.com/package/ais)
-Reading position updates from DeLorme InReach users public feeds
+Reading position updates from DeLorme inReach users public feeds
 
 ### Installation
 
@@ -19,3 +19,7 @@ inreach.get("username", function(pos, more) {
                         // speed in knots, course in degrees
 });
 ```
+
+#### Disclaimer
+
+I am not associated or affiliated with DeLorme. I just wanted to consume the .kml feed :)
