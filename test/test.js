@@ -8,6 +8,7 @@ describe("inreach.js", function() {
 
 		inreach.get("saillife", function(pos, more) {
 			more.name.should.equal("Mads Dahlke");
+			(more.time > 0).should.equal(true);
 			return done();
 		});
 	});

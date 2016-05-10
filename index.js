@@ -1,6 +1,7 @@
 var request = require("request");
 var tj = require("togeojson");
 var jsdom = require("jsdom").jsdom;
+var moment = require("moment");
 
 module.exports = {
 
@@ -36,7 +37,8 @@ module.exports = {
 				], {
 					"course": crs,
 					"speed": spd,
-					"name": prop["Map Display Name"] || username
+					"name": prop["Map Display Name"] || username,
+					"time": parseInt(moment.utc(prop["Time UTC"], "MM/DD/YYYY hh:mm:ss A").format("X"))
 				});
 			} else {
 				return callback(null, null);
