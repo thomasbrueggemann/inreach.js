@@ -1,4 +1,4 @@
-# inreach.js [![Build Status](https://travis-ci.org/thomasbrueggemann/inreach.js.svg?branch=master)](https://travis-ci.org/thomasbrueggemann/inreach.js) [![npm](https://img.shields.io/badge/npm-1.1.3-blue.svg)](https://www.npmjs.com/package/ais)
+# inreach.js [![Build Status](https://travis-ci.org/thomasbrueggemann/inreach.js.svg?branch=master)](https://travis-ci.org/thomasbrueggemann/inreach.js) [![npm](https://img.shields.io/badge/npm-1.1.4-blue.svg)](https://www.npmjs.com/package/ais)
 Reading position updates from DeLorme inReach users public feeds
 
 ### Installation
@@ -11,7 +11,7 @@ Reading position updates from DeLorme inReach users public feeds
 var inreach = require("inreach");
 
 inreach.get("username", function(pos, more) {
-    console.log(pos);   // prints either a lat/long array 
+    console.log(pos);   // prints either a lat/long array
                         // [56.57469, 9.05306] or null
 
     console.log(more);  // prints more information about the vessel
